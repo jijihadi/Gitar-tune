@@ -39,6 +39,52 @@
                             laborum. Sed ut perspiciatis</p>
                     </div>
                 </div>
+                <div class="col-lg-12">
+                    <h1>Tuning Gitar <button class="btn btn-pronia-primary"> Start</button></h1>
+                    <div class="contact-wrap mt-4 mb-2">
+                        <form id="contact-form" class="contact-form" action="https://whizthemes.com/mail-php/mamunur/pronia/pronia.php">
+                            <h2 class="text-warning" style="margin-top: -.5em">Key Input</h2>
+                            <hr>
+                        </form>
+                        <div class="contact-info text-white" data-bg-image="assets/images/banner/5-1-1980-1080.jpg" style="background-image: url(&quot;assets/images/banner/5-1-1980-1080.jpg&quot;);">
+                            <h2 class="contact-title">Response</h2>
+                            <hr>
+                            <ul class="contact-list">
+                                <li style="margin-bottom: -1em">
+                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> E </p>
+                                    &nbsp;&nbsp;
+                                    <p class="fs-3 fw-bold">Tuned</p>
+                                </li>
+                                <li style="margin-bottom: -1em">
+                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> A </p>
+                                    &nbsp;&nbsp;
+                                    <p class="fs-3 fw-bold">Tuned</p>
+                                </li>
+                                <li style="margin-bottom: -1em">
+                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> B </p>
+                                    &nbsp;&nbsp;
+                                    <p class="fs-3 fw-bold">Tuned</p>
+                                </li>
+                                <li style="margin-bottom: -1em">
+                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> G </p>
+                                    &nbsp;&nbsp;
+                                    <p class="fs-3 fw-bold">Tuned</p>
+                                </li>
+                                <li style="margin-bottom: -1em">
+                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> D </p>
+                                    &nbsp;&nbsp;
+                                    <p class="fs-3 fw-bold">Tuned</p>
+                                </li>
+                                <li style="margin-bottom: -1em">
+                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> E </p>
+                                    &nbsp;&nbsp;
+                                    <p class="fs-3 fw-bold">...</p>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

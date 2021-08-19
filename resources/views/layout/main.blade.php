@@ -133,9 +133,7 @@
                   <ul>
                     <li class="disabled"> <a href="{{ url('/') }}">Home</a> </li>
                     <li> <a href="{{ url('/gitar') }}">Katalog</a> </li>
-                    @if (!Auth::guest())
                     <li> <a href="{{ url('/stem') }}">Tune up</a> </li>
-                    @endif
                     <li> <a href="{{ url('/about') }}">About</a> </li>
                   </ul>
                 </nav>
@@ -161,9 +159,7 @@
                     <ul>
                       <li> <a href="{{ url('/') }}">Home</a> </li>
                       <li> <a href="{{ url('/gitar') }}">Katalog</a> </li>
-                      @if (!Auth::guest())
                       <li> <a href="{{ url('/stem') }}">Tune up</a> </li>
-                      @endif
                       <li> <a href="{{ url('/about') }}">About</a> </li>
                     </ul>
                   </nav>
@@ -275,9 +271,7 @@
                 <ul>
                   <li> <a href="{{ url('/') }}">Home</a> </li>
                   <li> <a href="{{ url('/gitar') }}">Katalog</a> </li>
-                  @if (!Auth::guest())
                   <li> <a href="{{ url('/stem') }}">Tune up</a> </li>
-                  @endif
                   <li> <a href="{{ url('/about') }}">About</a> </li>
                   <li> <a href="{{ url('/#') }}">Login</a> </li>
                 </ul>
