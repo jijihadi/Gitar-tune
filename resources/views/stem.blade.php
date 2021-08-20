@@ -51,22 +51,7 @@
                             <hr>
                             <ul class="contact-list">
                                 <li style="margin-bottom: -1em">
-                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> E </p>
-                                    &nbsp;&nbsp;
-                                    <p class="fs-3 fw-bold">Tuned</p>
-                                </li>
-                                <li style="margin-bottom: -1em">
-                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> A </p>
-                                    &nbsp;&nbsp;
-                                    <p class="fs-3 fw-bold">Tuned</p>
-                                </li>
-                                <li style="margin-bottom: -1em">
-                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> B </p>
-                                    &nbsp;&nbsp;
-                                    <p class="fs-3 fw-bold">Tuned</p>
-                                </li>
-                                <li style="margin-bottom: -1em">
-                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> G </p>
+                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> C </p>
                                     &nbsp;&nbsp;
                                     <p class="fs-3 fw-bold">Tuned</p>
                                 </li>
@@ -77,6 +62,26 @@
                                 </li>
                                 <li style="margin-bottom: -1em">
                                     <p class="btn btn-outline-success text-success" style="border-radius: 9em"> E </p>
+                                    &nbsp;&nbsp;
+                                    <p class="fs-3 fw-bold">Tuned</p>
+                                </li>
+                                <li style="margin-bottom: -1em">
+                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> F </p>
+                                    &nbsp;&nbsp;
+                                    <p class="fs-3 fw-bold">Tuned</p>
+                                </li>
+                                <li style="margin-bottom: -1em">
+                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> G </p>
+                                    &nbsp;&nbsp;
+                                    <p class="fs-3 fw-bold">Tuned</p>
+                                </li>
+                                <li style="margin-bottom: -1em">
+                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> A </p>
+                                    &nbsp;&nbsp;
+                                    <p class="fs-3 fw-bold">...</p>
+                                </li>
+                                <li style="margin-bottom: -1em">
+                                    <p class="btn btn-outline-success text-success" style="border-radius: 9em"> B </p>
                                     &nbsp;&nbsp;
                                     <p class="fs-3 fw-bold">...</p>
                                 </li>
