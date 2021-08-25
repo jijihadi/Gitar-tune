@@ -23,9 +23,8 @@
         </div>
     </div>
 
-
     <!-- Begin about Area -->
-    <div class="about-area section-space-top-95 mb-3">
+    <div class="about-area section-space-top-95">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -39,14 +38,17 @@
                             laborum. Sed ut perspiciatis</p>
                     </div>
                 </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Yp1-6C6irLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div class="col-lg-12">
                     <h1>Tuning Gitar <button class="btn btn-pronia-primary"> Start</button></h1>
                     <div class="contact-wrap mt-4 mb-2">
-                        <form id="contact-form" class="contact-form" action="https://whizthemes.com/mail-php/mamunur/pronia/pronia.php">
+
+                        <form id="contact-form" class="contact-form">
                             <h2 class="text-warning" style="margin-top: -.5em">Key Input</h2>
                             <hr>
                         </form>
-                        <div class="contact-info text-white" data-bg-image="assets/images/banner/5-1-1980-1080.jpg" style="background-image: url(&quot;assets/images/banner/5-1-1980-1080.jpg&quot;);">
+                        <div class="contact-info text-white" data-bg-image="assets/images/banner/5-1-1980-1080.jpg"
+                            style="background-image: url(&quot;assets/images/banner/5-1-1980-1080.jpg&quot;);">
                             <h2 class="contact-title">Response</h2>
                             <hr>
                             <ul class="contact-list">
@@ -80,7 +82,6 @@
                                     &nbsp;&nbsp;
                                     <p class="fs-3 fw-bold">...</p>
                                 </li>
-                                
                             </ul>
                         </div>
                     </div>
@@ -88,7 +89,22 @@
             </div>
         </div>
     </div>
+
+    <div class="about-area section-space-top-95 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-wrap p-4">
+                        <h3>Ikut berpartisipasi dengan upload chord dengan variasimu sekarang!</h3>
+                        &nbsp;&nbsp;
+                        <a href="{{ url('/stemadd') }}" class="text-right btn btn-pronia-primary"> Mulai!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- End about Area -->
-    
+
 </main>
 @endsection

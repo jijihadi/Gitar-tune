@@ -17,6 +17,14 @@ Route::get('/about', 'PagesController@about');
 Route::get('/gitar', 'GitarController@index');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/stem', 'PagesController@stem');
+Route::get('/test', 'PagesController@test');
+
+
+// upload sample
+Route::group(['middleware' => ['auth','isUser']], function () {
+    Route::get('/stemadd', 'PagesController@upload_stem')->name('stem/add');;
+    Route::post('/steminsert', 'PagesController@insert_stem')->name('stem.insert');
+});
 
 // Admin Dashboard
 Auth::routes();
@@ -52,3 +60,10 @@ Route::post('/merjen/insertj', 'Admin\MerjenController@insertj')->name('jenis.in
 Route::get('/merjen/editj/{id}', 'Admin\MerjenController@editj')->name('jenis.edit');
 Route::post('/merjen/updatej/{id}', 'Admin\MerjenController@updatej')->name('jenis.update');
 Route::get('/merjen/deletej/{id}', 'Admin\MerjenController@deletej')->name('jenis.delete');
+// Admin Sample
+Route::get('/sample', 'Admin\SampleController@index')->name('sample');
+Route::get('/sample/add', 'Admin\SampleController@add')->name('sample.add');
+Route::post('/sample/insert', 'Admin\SampleController@insert')->name('sample.insert');
+Route::get('/sample/edit/{id}', 'Admin\SampleController@edit')->name('sample.edit');
+Route::post('/sample/update/{id}', 'Admin\SampleController@update')->name('sample.update');
+Route::get('/sample/delete/{id}', 'Admin\SampleController@delete')->name('sample.delete');

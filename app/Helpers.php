@@ -1,5 +1,21 @@
 <?php
 
+function getapi($file=''){
+
+    // echo <script></script>
+//   $url = 'gitar-api/index.php';
+
+//      $ch = curl_init();
+//      curl_setopt($ch, CURLOPT_URL, $url);
+//      curl_setopt($ch, CURLOPT_POST, 0);
+//      curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+//      $response = curl_exec ($ch);
+//      $err = curl_error($ch);  //if you need
+//      curl_close ($ch);
+//      return $response;
+}
+
 function namauser(){
     $user = Auth::user();
     return $user->name;
@@ -25,6 +41,10 @@ function selectsama($ich, $nii){
 function namanya($table, $id)
 {
     $nid = 'id_' . substr($table, 0, -1);
+
+    if($table == "users"){
+        $nid = 'id';
+    }
     $comm = DB::table($table)
         ->where($nid, $id) // Getting the Authenticated user id
         ->get()->toArray();
@@ -35,6 +55,9 @@ function namanya($table, $id)
             break;
         case 'merks':
             return $comm[0]->nama_merk;
+            break;
+        case 'users':
+            return $comm[0]->name;
             break;
     }
 
@@ -64,6 +87,7 @@ function tgl_indo($date)
     $bulan = substr($date, 5, 2);
     $tgl = substr($date, 8, 2);
     $result = $tgl . " " . $BulanIndo[(int) $bulan - 1] . " " . $tahun;
+    // $result = '0';
     return ($result);
 }
 

@@ -129,7 +129,9 @@
                                                                                         <i
                                                                                             class="feather icon-lock"></i>
                                                                                     </div>
+                                                                                    @if(!empty($post)):
                                                                                     <small class="text-danger">*Kosongi password jika tidak ingin merubah password.</small>
+                                                                                    @endif
                                                                                 </div>
                                                                             </div>
                                                                         </div>

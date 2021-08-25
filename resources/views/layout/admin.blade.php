@@ -245,6 +245,10 @@
                     <a href="{{ url('/merjen') }}"><i class="feather icon-tag"></i><span class="menu-title"
                             data-i18n="Email">Data Merk Jenis</span></a>
                 </li>
+                <li class="nav-item {{isActive('sample')}}">
+                    <a href="{{ url('/sample') }}"><i class="feather icon-speaker"></i><span class="menu-title"
+                            data-i18n="Email">Data Sample Tuning</span></a>
+                </li>
                 <li class="nav-item {{isActive('users')}}">
                     <a href="{{ url('/users') }}"><i class="feather icon-users"></i><span class="menu-title"
                             data-i18n="Email">Data User</span></a>
