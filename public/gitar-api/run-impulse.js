@@ -1,14 +1,30 @@
 // Load the inferencing WebAssembly module
 const Module = require('./edge-impulse-standalone');
 const fs = require('fs');
-var http = require('http');
-var url = require('url');
+
+var express = require('express');
+//store the express in a variable 
+var app = express();
 
 // Classifier module
 let classifierInitialized = false;
 Module.onRuntimeInitialized = function () {
     classifierInitialized = true;
 };
+
+function getTopN(arr, prop, n) {
+    // clone before sorting, to preserve the original array
+    var clone = arr.slice(0);
+
+    // sort descending
+    clone.sort(function (x, y) {
+        if (x[prop] == y[prop]) return 0;
+        else if (parseInt(x[prop]) < parseInt(y[prop])) return 1;
+        else return -1;
+    });
+
+    return clone.slice(0, n || 1);
+}
 
 class EdgeImpulseClassifier {
     _initialized = false;
@@ -76,11 +92,12 @@ class EdgeImpulseClassifier {
     }
 }
 
-if (!process.argv[2]) {
-    return console.error('Requires one parameter (a comma-separated list of raw features, or a file pointing at raw features)');
-}
+// if (!process.argv[2]) {
+//     return console.error('Requires one parameter (a comma-separated list of raw features, or a file pointing at raw features)');
+// }
 
-let features = process.argv[2];
+// let features = process.argv[2];
+let features = "features.txt";
 if (fs.existsSync(features)) {
     features = fs.readFileSync(features, 'utf-8');
 }
@@ -90,22 +107,31 @@ let classifier = new EdgeImpulseClassifier();
 classifier.init().then(async () => {
     let result = classifier.classify(features.trim().split(',').map(n => Number(n)));
 
-    // console.log(result);
-    const hostname = '127.0.0.1';
-    const port = 3030;
-
-    const server = http.createServer((req, res) => {
-        res.statusCode = 200;
-        res.setHeader('Content-Type', 'application/json');
-        res.write(JSON.stringify(result));
+    app.get('/api', function (req, res) {
         // console.log(result);
-        return res.end();
+        res.setHeader('Content-Type', 'application/json');
+
+        // res.write(JSON.stringify(result));
+
+        var topScorers = getTopN(result['results'], "value", 1);
+        topScorers.forEach(function (item, index) {
+            // console.log("#" + (index + 1) + ": " + item.label + " - " + item.value);
+            // hasil tertinggi
+            var rsl = [item.label, item.value ];
+            res.write(JSON.stringify(rsl));
+        });
+        // console.log(result['results']);
+        res.end();
+    });
+    // console.log(result);
+    var server = app.listen(3030, function () {
+        var host = "127.0.0.1";
+        var port = server.address().port;
+        // console.log("Example app listening at http://%s:%s", host, port);
+        console.log("Example app listening at http://%s:%s/", host, port);
 
     });
 
-    server.listen(port, hostname, () => {
-        console.log(`Server running at http://${hostname}:${port}/`);
-    });
 }).catch(err => {
     console.error('Failed to initialize classifier', err);
 });

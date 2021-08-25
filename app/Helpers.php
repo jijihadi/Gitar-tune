@@ -3,17 +3,17 @@
 function getapi($file=''){
 
     // echo <script></script>
-//   $url = 'gitar-api/index.php';
+    $url = 'http://127.1.1.1:3030/api';
 
-//      $ch = curl_init();
-//      curl_setopt($ch, CURLOPT_URL, $url);
-//      curl_setopt($ch, CURLOPT_POST, 0);
-//      curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+     $ch = curl_init();
+     curl_setopt($ch, CURLOPT_URL, $url);
+     curl_setopt($ch, CURLOPT_POST, 0);
+     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-//      $response = curl_exec ($ch);
-//      $err = curl_error($ch);  //if you need
-//      curl_close ($ch);
-//      return $response;
+     $response = curl_exec ($ch);
+     $err = curl_error($ch);  //if you need
+     curl_close ($ch);
+     return $response;
 }
 
 function namauser(){
