@@ -15,7 +15,7 @@
                         <h2 class="title">Stem <br> Your Guitar</h2>
                         <p class="short-desc">With various version and alto.</p>
                         <div class="btn-wrap">
-                            <a class="btn btn-custom-size xl-size btn-pronia-primary" href="#">Discover Now</a>
+                            <a class="btn btn-custom-size xl-size btn-pronia-primary" href="{{url('/stem')}}">Discover Now</a>
                         </div>
                     </div>
                     <div class="slide-img">
@@ -66,7 +66,7 @@
 <!-- Slider Area End Here -->
 
 <!-- Begin Banner Area -->
-<div class="banner-area banner-style-2 section-space-top-100">
+{{-- <div class="banner-area banner-style-2 section-space-top-100">
     <div class="container">
         <div class="row g-y-30">
             <div class="col-md-6">
@@ -93,7 +93,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- Banner Area End Here -->
 
 <!-- Begin about Area -->
@@ -120,7 +120,7 @@
 <!-- End about Area -->
 
 <!-- Begin Banner Area -->
-<div class="banner-area">
+<div class="banner-area mb-3">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -130,7 +130,7 @@
                         {{-- <h2 class="title text-white">Tune up your guitar</h2> --}}
                         <h3 class="discount text-white">Tune up your <span>guitar</span></h3>
                         <div class="button-wrap">
-                            <a class="btn btn-custom-size btn-pronia-primary" href="shop.html">Now!</a>
+                            <a class="btn btn-custom-size btn-pronia-primary" href="{{url('/stem')}}">Now!</a>
                         </div>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
     </div>
 </div>
 <!-- Banner Area End Here -->
-
+{{-- 
 <!-- Begin Testimonial Area -->
 <div class="testimonial-area section-space-top-100 section-space-bottom-95">
     <div class="container-fluid px-10">
@@ -209,6 +209,6 @@
             <div class="swiper-pagination without-absolute"></div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- Testimonial Area End Here -->
 @endsection

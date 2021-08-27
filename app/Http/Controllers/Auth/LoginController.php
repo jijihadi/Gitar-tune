@@ -48,7 +48,7 @@ class LoginController extends Controller
         }
         elseif(Auth::user()->role_as == '0') // Normal or Default User Login
         {
-            return '/';
+            return '/stemadd';
         }
     }
 
@@ -63,7 +63,7 @@ class LoginController extends Controller
         }
         elseif(Auth::user()->role_as == '0') // Normal or Default User Login
         {
-            return redirect('/')->with('status','Logged in successfully');
+            return redirect('/stemadd')->with('status','Logged in successfully');
         }
     }
 }

@@ -16,7 +16,7 @@
                             <li>
                                 <a href="index.html">Home</a>
                             </li>
-                            <li>Shop Grid Fullwidth</li>
+                            <li>Katalog</li>
                         </ul>
                     </div>
                 </div>
@@ -108,7 +108,7 @@
                                         <div class="product-content">
                                             <a class="product-name" href="single-product-variable.html">{{$g->nama}}</a>
                                             <div class="price-box pb-1">
-                                                <span class="new-price">{{$g->harga}}</span>
+                                                {{-- <span class="new-price">{{rupiah($g->harga)}}</span> --}}
                                             </div>
                                             {{-- <div class="rating-box">
                                                 <ul>

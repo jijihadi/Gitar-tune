@@ -38,7 +38,6 @@
                             laborum. Sed ut perspiciatis</p>
                     </div>
                 </div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Yp1-6C6irLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div class="col-lg-12">
                     <h1>Tuning Gitar <button class="btn btn-pronia-primary"> Start</button></h1>
                     <div class="contact-wrap mt-4 mb-2">

@@ -71,12 +71,11 @@
 
                 <div class="header-right">
                   <ul>
-                    {{-- <li>
-                      <a href="#exampleModal" class="search-btn bt" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
-                        <i class="pe-7s-search"></i>
-                      </a>
-                    </li> --}}
+                    <li>
+                      <button class="btn ht-btn p-0" type="button">
+                        <i class="pe-7s-bell"></i>
+                      </button>
+                    </li>
                     <li class="dropdown d-none d-lg-block">
                       <button class="btn btn-link dropdown-toggle ht-btn p-0" type="button" id="settingButton"
                         data-bs-toggle="dropdown" aria-label="setting" aria-expanded="false">

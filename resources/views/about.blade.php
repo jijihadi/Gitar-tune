@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="about-content">
-                        <h2 class="about-title">What is <span> GIM?</span></h2>
+                        <h2 class="about-title">Apa itu gim?? <span> GIM?</span></h2>
                         <p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
@@ -45,249 +45,50 @@
             </div>
         </div>
     </div>
+    <!-- Begin about Area -->
+    <div class="about-area section-space-top-95">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-wrap mt-4 mb-2">
+                        <div class="contact-info text-white" data-bg-image="assets/images/banner/5-1-1980-1080.jpg"
+                        style="background-image: url(&quot;assets/images/banner/5-1-1980-1080.jpg&quot;);">
+                        <h2 class="" style="margin-top: -.5em">Hubungi Kami</h2>
+
+                        <hr>
+                        
+                        <h5>Untuk lebih dekat  hubungi</h5>
+                        <br>
+                        <p><i class="fa fa-instagram"></i> galleryinstrumenmusik</p>
+                        <p><i class="fa fa-whatsapp"></i> 08123456789</p>
+                        <p><i class="fa fa-phone"></i> 08123456789</p>
+                        
+                    </div>
+                        <form id="contact-form" class="contact-form">
+                            <div style="overflow:hidden;resize:none;max-width:100%;width:100%;height:300px;">
+                                <div id="display-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe
+                                        style="height:100%;width:100%;border:0;" frameborder="0"
+                                        src="https://www.google.com/maps/embed/v1/place?q=banyuwangi&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                </div><a class="codefor-google-map" rel="nofollow" href="https://www.embed-map.com"
+                                    id="authorizemaps-data">https://www.embed-map.com</a>
+                                <style>
+                                    #display-googlemap img {
+                                        max-width: none !important;
+                                        background: none !important;
+                                        font-size: inherit;
+                                        font-weight: inherit;
+                                    }
+                                </style>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- End about Area -->
 
-    <!-- Begin Banner Area -->
-    <div class="banner-with-counter">
-        <div class="banner-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="banner-boxshadow">
-                            <div class="banner-item" data-bg-image="assets/images/banner/3-1-1208x542.jpg">
-                                <div class="popup-btn">
-                                    <a class="popup-vimeo wave-btn"
-                                        href="https://youtu.be/kIGKt-U18hY">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                        <div class="icon">
-                                            <i class="pe-7s-play"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="counter-area">
-            <div class="container">
-                <h2 class="counter-title">Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit, sed do
-                    <span>eiusmod tempor</span> incididunt.
-                </h2>
-                <div class="row">
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <div class="counter-item">
-                            <div class="count-wrap">
-                                <h3 class="count mb-0" data-counterup-time="500">150</h3>
-                                <span class="prefix">+</span>
-                            </div>
-                            <h4 class="count-title mb-0">Projects</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6">
-                        <div class="counter-item">
-                            <div class="count-wrap">
-                                <h3 class="count mb-0" data-counterup-time="1000">359</h3>
-                                <span class="prefix">+</span>
-                            </div>
-                            <h4 class="count-title mb-0">Clients</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6 pt-4 pt-md-0">
-                        <div class="counter-item">
-                            <div class="count-wrap">
-                                <h3 class="count mb-0" data-counterup-time="1500">251</h3>
-                                <span class="prefix">+</span>
-                            </div>
-                            <h4 class="count-title mb-0">Rating</h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-6 pt-4 pt-lg-0">
-                        <div class="counter-item">
-                            <div class="count-wrap">
-                                <h3 class="count mb-0" data-counterup-time="2000">110</h3>
-                                <span class="prefix">+</span>
-                            </div>
-                            <h4 class="count-title mb-0">Award</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Banner Area End Here -->
 
-    <div class="team-area section-space-top-100">
-        <div class="container">
-            <div class="section-title-wrap without-tab">
-                <h2 class="section-title">Our Team</h2>
-                <p class="section-desc">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
-                    in a piece of classical Latin literature
-                </p>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-sm-6 pt-sm-5">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="assets/images/about/team/1-1-270x270.png" alt="Team Member">
-                            <div class="inner-content">
-                                <h2 class="team-member-name">Micheal Murphy</h2>
-                                <span class="occupation">Sales man</span>
-                                <div class="social-link with-border">
-                                    <ul>
-                                        <li>
-                                            <a href="#" data-tippy="Facebook" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-tippy="Twitter" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-tippy="Pinterest" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-pinterest"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h2 class="team-member-name mb-0">Micheal Murphy</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 pt-5 pt-sm-0">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="assets/images/about/team/1-2-270x270.png" alt="Team Member">
-                            <div class="inner-content">
-                                <h2 class="team-member-name">Kari Rasmus</h2>
-                                <span class="occupation">Sales man</span>
-                                <div class="social-link with-border">
-                                    <ul>
-                                        <li>
-                                            <a href="#" data-tippy="Facebook" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-tippy="Twitter" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-tippy="Pinterest" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-pinterest"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h2 class="team-member-name mb-0">Kari Rasmus</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 pt-5">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="assets/images/about/team/1-3-270x270.png" alt="Team Member">
-                            <div class="inner-content">
-                                <h2 class="team-member-name">Britney Cooper</h2>
-                                <span class="occupation">Sales man</span>
-                                <div class="social-link with-border">
-                                    <ul>
-                                        <li>
-                                            <a href="#" data-tippy="Facebook" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-tippy="Twitter" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-tippy="Pinterest" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-pinterest"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h2 class="team-member-name mb-0">Britney Cooper</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 pt-5 pt-sm-0">
-                    <div class="team-item">
-                        <div class="team-img">
-                            <img src="assets/images/about/team/1-4-270x270.png" alt="Team Member">
-                            <div class="inner-content">
-                                <h2 class="team-member-name">Marissa Swan</h2>
-                                <span class="occupation">Sales man</span>
-                                <div class="social-link with-border">
-                                    <ul>
-                                        <li>
-                                            <a href="#" data-tippy="Facebook" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-facebook"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-tippy="Twitter" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#" data-tippy="Pinterest" data-tippy-inertia="true"
-                                                data-tippy-animation="shift-away" data-tippy-delay="50"
-                                                data-tippy-arrow="true" data-tippy-theme="sharpborder">
-                                                <i class="fa fa-pinterest"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h2 class="team-member-name mb-0">Marissa Swan</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
 </main>
 @endsection
