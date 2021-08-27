@@ -68,12 +68,12 @@
                                 <div class="col-lg-3 col-md-4 col-sm-6">
                                     <div class="product-item">
                                         <div class="product-img">
-                                            <a href="single-product-variable.html">
+                                            <a href="{{url("/gitar/detail/".$g->id_gitar)}}">
                                                 <img class="primary-img"
-                                                    src="assets/images/product/medium-size/1-1-270x300.jpg"
+                                                    src="file_upload/img/{{$g->gambar}}"
                                                     alt="Product Images">
                                                 <img class="secondary-img"
-                                                    src="assets/images/product/medium-size/1-2-270x300.jpg"
+                                                    src="file_upload/img/{{$g->gambar}}"
                                                     alt="Product Images">
                                             </a>
                                             <div class="product-add-action">
@@ -88,7 +88,7 @@
                                                     </li> --}}
                                                     <li class="quuickview-btn" data-bs-toggle="modal"
                                                         data-bs-target="#quickModal">
-                                                        <a href="#" data-tippy="Quickview" data-tippy-inertia="true"
+                                                        <a href="{{url("/gitar/detail/".$g->id_gitar)}}" data-tippy="Quickview" data-tippy-inertia="true"
                                                             data-tippy-animation="shift-away" data-tippy-delay="50"
                                                             data-tippy-arrow="true" data-tippy-theme="sharpborder">
                                                             <i class="pe-7s-look"></i>

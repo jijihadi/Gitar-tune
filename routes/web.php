@@ -18,7 +18,7 @@ Route::get('/gitar', 'GitarController@index');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/stem', 'PagesController@stem');
 Route::get('/test', 'PagesController@test');
-
+Route::get('/gitar/detail/{id}', 'GitarController@show')->name('detail');
 
 // upload sample
 Route::group(['middleware' => ['auth','isUser']], function () {

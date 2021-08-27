@@ -48,6 +48,9 @@ class GitarController extends Controller
      */
     public function show($id)
     {
+        $gitar = Gitar::find($id)->toArray();
+        // dd($gitar['nama']);
+        return view('gitar.detail', ['gitar'=> $gitar]);
         //
     }
 

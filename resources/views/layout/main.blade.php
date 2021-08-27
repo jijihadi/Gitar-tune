@@ -11,22 +11,22 @@
     content="Pronia plant store bootstrap 5 template is an awesome website template for any home plant shop.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="{{ url('/') }}/assets/images/favicon.ico" />
 
   <!-- CSS
     ============================================ -->
 
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="assets/css/Pe-icon-7-stroke.css" />
-  <link rel="stylesheet" href="assets/css/animate.min.css">
-  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="assets/css/nice-select.css">
-  <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
-  <link rel="stylesheet" href="assets/css/ion.rangeSlider.min.css" />
+  <link rel="stylesheet" href="{{ url('/') }}/assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="{{ url('/') }}/assets/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="{{ url('/') }}/assets/css/Pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="{{ url('/') }}/assets/css/animate.min.css">
+  <link rel="stylesheet" href="{{ url('/') }}/assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="{{ url('/') }}/assets/css/nice-select.css">
+  <link rel="stylesheet" href="{{ url('/') }}/assets/css/magnific-popup.min.css" />
+  <link rel="stylesheet" href="{{ url('/') }}/assets/css/ion.rangeSlider.min.css" />
 
   <!-- Style CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="{{ url('/') }}/assets/css/style.css">
 
 </head>
 
@@ -66,7 +66,7 @@
                 </div>
 
                 <a href="index.html" class="header-logo">
-                  <img src="assets/images/logo/dark.png" alt="Header Logo">
+                  <img src="{{ url('/') }}/assets/images/logo/dark.png" alt="Header Logo">
                 </a>
 
                 <div class="header-right">
@@ -148,7 +148,7 @@
               <div class="col-lg-3 col-6">
 
                 <a href="{{'/'}}" class="header-logo">
-                  <img src="assets/images/logo/dark.png" alt="Header Logo">
+                  <img src="{{ url('/') }}/assets/images/logo/dark.png" alt="Header Logo">
                 </a>
 
               </div>
@@ -222,7 +222,7 @@
             <div class="header-contact offcanvas-contact">
               {{-- <i class="pe-7s-call"></i>
               <a href="tel://+00-123-456-789">+00 123 456 789</a> --}}
-              <img src="assets/images/logo/dark.png" alt="Header Logo">
+              <img src="{{ url('/') }}/assets/images/logo/dark.png" alt="Header Logo">
             </div>
             {{-- <div class="offcanvas-user-info">
               <ul class="dropdown-wrap">
@@ -320,7 +320,7 @@
                 data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true"
                 data-tippy-theme="sharpborder"></i></a>
             <a href="single-product-variable.html" class="product-item_img">
-              <img class="img-full" src="assets/images/product/small-size/2-1-70x78.png" alt="Product Image">
+              <img class="img-full" src="{{ url('/') }}/assets/images/product/small-size/2-1-70x78.png" alt="Product Image">
             </a>
             <div class="product-item_content">
               <a class="product-item_title" href="single-product-variable.html">American
@@ -333,7 +333,7 @@
                 data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true"
                 data-tippy-theme="sharpborder"></i></a>
             <a href="single-product-variable.html" class="product-item_img">
-              <img class="img-full" src="assets/images/product/small-size/2-2-70x78.png" alt="Product Image">
+              <img class="img-full" src="{{ url('/') }}/assets/images/product/small-size/2-2-70x78.png" alt="Product Image">
             </a>
             <div class="product-item_content">
               <a class="product-item_title" href="single-product-variable.html">Black Eyed
@@ -347,7 +347,7 @@
                 data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder"></i>
             </a>
             <a href="single-product-variable.html" class="product-item_img">
-              <img class="img-full" src="assets/images/product/small-size/2-3-70x78.png" alt="Product Image">
+              <img class="img-full" src="{{ url('/') }}/assets/images/product/small-size/2-3-70x78.png" alt="Product Image">
             </a>
             <div class="product-item_content">
               <a class="product-item_title" href="single-product-variable.html">Bleeding Heart</a>
@@ -380,7 +380,7 @@
             <div class="footer-widget-item">
               <div class="footer-widget-logo">
                 <a href="index.html">
-                  <img src="assets/images/logo/dark.png" alt="Logo">
+                  <img src="{{ url('/') }}/assets/images/logo/dark.png" alt="Logo">
                 </a>
               </div>
               <p class="footer-widget-desc">Lorem ipsum dolor sit amet, consec adipisl elit, sed do eiusmod
@@ -468,25 +468,25 @@
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
                       <a href="#" class="single-img">
-                        <img class="img-full" src="assets/images/product/large-size/1-1-570x633.jpg"
+                        <img class="img-full" src="{{ url('/') }}/assets/images/product/large-size/1-1-570x633.jpg"
                           alt="Product Image">
                       </a>
                     </div>
                     <div class="swiper-slide">
                       <a href="#" class="single-img">
-                        <img class="img-full" src="assets/images/product/large-size/1-2-570x633.jpg"
+                        <img class="img-full" src="{{ url('/') }}/assets/images/product/large-size/1-2-570x633.jpg"
                           alt="Product Image">
                       </a>
                     </div>
                     <div class="swiper-slide">
                       <a href="#" class="single-img">
-                        <img class="img-full" src="assets/images/product/large-size/1-3-570x633.jpg"
+                        <img class="img-full" src="{{ url('/') }}/assets/images/product/large-size/1-3-570x633.jpg"
                           alt="Product Image">
                       </a>
                     </div>
                     <div class="swiper-slide">
                       <a href="#" class="single-img">
-                        <img class="img-full" src="assets/images/product/large-size/1-4-570x633.jpg"
+                        <img class="img-full" src="{{ url('/') }}/assets/images/product/large-size/1-4-570x633.jpg"
                           alt="Product Image">
                       </a>
                     </div>
@@ -560,7 +560,7 @@
                 <ul class="service-item-wrap pb-0">
                   <li class="service-item">
                     <div class="service-img">
-                      <img src="assets/images/shipping/icon/car.png" alt="Shipping Icon">
+                      <img src="{{ url('/') }}/assets/images/shipping/icon/car.png" alt="Shipping Icon">
                     </div>
                     <div class="service-content">
                       <span class="title">Free <br> Shipping</span>
@@ -568,7 +568,7 @@
                   </li>
                   <li class="service-item">
                     <div class="service-img">
-                      <img src="assets/images/shipping/icon/card.png" alt="Shipping Icon">
+                      <img src="{{ url('/') }}/assets/images/shipping/icon/card.png" alt="Shipping Icon">
                     </div>
                     <div class="service-content">
                       <span class="title">Safe <br> Payment</span>
@@ -576,7 +576,7 @@
                   </li>
                   <li class="service-item">
                     <div class="service-img">
-                      <img src="assets/images/shipping/icon/service.png" alt="Shipping Icon">
+                      <img src="{{ url('/') }}/assets/images/shipping/icon/service.png" alt="Shipping Icon">
                     </div>
                     <div class="service-content">
                       <span class="title">Safe <br> Payment</span>
@@ -605,23 +605,23 @@
   <!-- JS Files
     ============================================ -->
 
-  <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
-  <script src="assets/js/vendor/jquery.waypoints.js"></script>
-  <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="assets/js/plugins/wow.min.js"></script>
-  <script src="assets/js/plugins/swiper-bundle.min.js"></script>
-  <script src="assets/js/plugins/jquery.nice-select.js"></script>
-  <script src="assets/js/plugins/parallax.min.js"></script>
-  <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/plugins/tippy.min.js"></script>
-  <script src="assets/js/plugins/ion.rangeSlider.min.js"></script>
-  <script src="assets/js/plugins/mailchimp-ajax.js"></script>
-  <script src="assets/js/plugins/jquery.counterup.js"></script>
+  <script src="{{ url('/') }}/assets/js/vendor/bootstrap.bundle.min.js"></script>
+  <script src="{{ url('/') }}/assets/js/vendor/jquery-3.6.0.min.js"></script>
+  <script src="{{ url('/') }}/assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+  <script src="{{ url('/') }}/assets/js/vendor/jquery.waypoints.js"></script>
+  <script src="{{ url('/') }}/assets/js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="{{ url('/') }}/assets/js/plugins/wow.min.js"></script>
+  <script src="{{ url('/') }}/assets/js/plugins/swiper-bundle.min.js"></script>
+  <script src="{{ url('/') }}/assets/js/plugins/jquery.nice-select.js"></script>
+  <script src="{{ url('/') }}/assets/js/plugins/parallax.min.js"></script>
+  <script src="{{ url('/') }}/assets/js/plugins/jquery.magnific-popup.min.js"></script>
+  <script src="{{ url('/') }}/assets/js/plugins/tippy.min.js"></script>
+  <script src="{{ url('/') }}/assets/js/plugins/ion.rangeSlider.min.js"></script>
+  <script src="{{ url('/') }}/assets/js/plugins/mailchimp-ajax.js"></script>
+  <script src="{{ url('/') }}/assets/js/plugins/jquery.counterup.js"></script>
 
   <!--Main JS (Common Activation Codes)-->
-  <script src="assets/js/main.js"></script>
+  <script src="{{ url('/') }}/assets/js/main.js"></script>
 
 </body>
 
